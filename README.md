@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Aosm26
+- 👋 Hi, I’m Ali Osman SEYİS
 - 👀 I’m interested in Computer
 - 🌱 I’m currently learning Python C#
 - 💞️ I’m looking to collaborate on ...
