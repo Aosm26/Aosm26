@@ -2,4 +2,4 @@
 - 👀 I’m interested in Computer
 - 🌱 I’m currently learning Python C#
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me aliosman_seyis26@hotmail.com
+- 📫 How to reach me connect.aosm@gmail.com
