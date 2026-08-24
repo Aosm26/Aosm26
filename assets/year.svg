@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 152" width="800" height="152">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 6; }
+    .title { font-family: "JetBrains Mono", Consolas, monospace; font-size: 11px; fill: #8b949e; letter-spacing: 0.05em; }
+    .day-lbl { font-family: "JetBrains Mono", Consolas, monospace; font-size: 9.5px; fill: #6e7681; }
+    .ascii-row { font-family: "JetBrains Mono", "SF Mono", Consolas, "Courier New", monospace; font-size: 12px; fill: #58a6ff; letter-spacing: 0.38em; font-weight: 500; }
+    .legend { font-family: "JetBrains Mono", Consolas, monospace; font-size: 10px; fill: #8b949e; }
+    .legend-ramp { fill: #3fb950; font-weight: 700; letter-spacing: 0.18em; }
+  </style>
+  <rect width="800" height="152" class="bg" />
+  <text x="16" y="24" class="title">YEAR CONTRIBUTION MATRIX // ASCII RAMP (365 DAYS)</text>
+
+  <!-- 7 ASCII Rows -->
+  <g>
+    <text x="50" y="46" class="ascii-row">:-:·····=···==--:-:-:·:-:·-:-:·:-:·········==--:=--:</text> <text x="16" y="59" class="day-lbl">Mon</text><text x="50" y="59" class="ascii-row">····==--:=--::-:··········:·········=--·=--::-:·:-:·</text> <text x="50" y="72" class="ascii-row">·=---:-:·:-:·····=·=--·=--··=-··=---:-:-:-::········</text> <text x="16" y="85" class="day-lbl">Wed</text><text x="50" y="85" class="ascii-row">-:-::·········=----:-:-:-:--:---:-::···:·····=--·=-·</text> <text x="50" y="98" class="ascii-row">:·····=--·=---:-:-:···:···-:··-:·····=-··=---:-:-:-·</text> <text x="16" y="111" class="day-lbl">Fri</text><text x="50" y="111" class="ascii-row">··=---··--··········=-··=-···=···==--··--···········</text> <text x="50" y="124" class="ascii-row">--·············=-=--·=--··=--·=--·············=···=·</text>
+  </g>
+
+  <!-- Legend -->
+  <text x="50" y="140" class="legend">less <tspan class="legend-ramp">· : - = + * # @</tspan> more</text>
+</svg>

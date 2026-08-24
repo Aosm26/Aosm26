@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 26" width="800" height="26">
+  <style>
+    .label {
+      font-family: "JetBrains Mono", "SF Mono", "Consolas", "Courier New", monospace;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      fill: #58a6ff;
+    }
+    .prefix {
+      fill: #8b949e;
+      font-weight: 400;
+    }
+    .line {
+      stroke: #30363d;
+      stroke-width: 1;
+      stroke-dasharray: 4 2;
+    }
+  </style>
+  <text x="0" y="17" class="label"><tspan class="prefix"># </tspan>activity & metrics</text>
+  <line x1="188" y1="13" x2="800" y2="13" class="line" />
+</svg>

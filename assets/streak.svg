@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 170" width="392" height="170">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 6; }
+    .title { font-family: "JetBrains Mono", Consolas, monospace; font-size: 11px; fill: #8b949e; letter-spacing: 0.05em; }
+    .hero { font-family: "JetBrains Mono", Consolas, monospace; font-size: 26px; font-weight: 700; fill: #3fb950; }
+    .hero-sub { font-family: "JetBrains Mono", Consolas, monospace; font-size: 11px; fill: #8b949e; }
+    .meta { font-family: "JetBrains Mono", Consolas, monospace; font-size: 11px; fill: #c9d1d9; }
+    .dim { fill: #6e7681; }
+    .accent { fill: #d29922; font-weight: 600; }
+  </style>
+  <rect width="392" height="170" class="bg" />
+  <text x="24" y="28" class="title">STREAK &amp; CONSISTENCY</text>
+
+  <!-- Current Streak -->
+  <text x="24" y="60" class="hero">2</text>
+  <text x="75" y="58" class="hero-sub">days current</text>
+  <text x="24" y="78" class="meta"><tspan class="dim">active window: </tspan>2026-08-23 → 2026-08-24</text>
+
+  <!-- Longest Streak & Consistency -->
+  <line x1="24" y1="95" x2="368" y2="95" stroke="#21262d" stroke-width="1" />
+
+  <text x="24" y="122" class="meta"><tspan class="dim">longest streak:</tspan> <tspan class="accent">3 days</tspan> (2025-09-30 → 2025-10-02)</text>
+  <text x="24" y="146" class="meta"><tspan class="dim">active days:   </tspan> 190/371 (51.2% year consistency)</text>
+</svg>
