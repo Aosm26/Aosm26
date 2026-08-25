@@ -57,7 +57,7 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
         }
       }
     }
-    repositories(first: 100, privacy: PUBLIC, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
+    repositories(first: 100, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
       nodes {
         name
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
