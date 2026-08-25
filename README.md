@@ -24,7 +24,8 @@ Hi there, I'm **Ali Osman Seyis** — a solution-oriented **Computer Engineer** 
 - **Computer Vision &amp; Edge AI:** Real-time object detection &amp; multi-object tracking (<samp>YOLO</samp>, <samp>DeepSORT</samp>, <samp>OpenCV</samp>), hardware acceleration and low-latency inference on <samp>NVIDIA Jetson Xavier / Nano</samp> and <samp>Raspberry Pi 5 AI</samp> using <samp>TensorRT</samp> &amp; <samp>CUDA</samp>.
 - **Vision-Language &amp; Generative AI:** Quantized multimodal pipelines (<samp>LLaVA</samp>), RAG architectures (<samp>LlamaIndex</samp>, <samp>ChromaDB</samp>), prompt engineering, and Medical Visual Question Answering (VQA).
 - **Autonomous Systems &amp; Robotics:** Autonomous Underwater Vehicles (AUV), autonomous ground vehicles (TÜBİTAK 2209-A), mission algorithms, depth estimation (<samp>SCDepth V3</samp>), and <samp>ROS</samp>-based architectures.
-- **Backend, Scraping &amp; Automation:** High-concurrency APIs (<samp>FastAPI</samp>, <samp>Flask</samp>, <samp>.NET</samp>), anti-bot web scraping (<samp>Playwright</samp>), end-to-end workflow automations (<samp>n8n</samp>), and cloud containerization (<samp>Docker</samp>, <samp>GCP</samp>, <samp>AWS S3</samp>).
+- **Web &amp; Full-Stack Development:** Modern web architectures with responsive UI, real-time multimedia streaming (<samp>WebRTC</samp>), RESTful APIs, and full-stack integrations (<samp>React</samp>, <samp>Flask</samp>, <samp>.NET</samp>, <samp>Node.js</samp>).
+- **Backend, Scraping &amp; Automation:** High-concurrency APIs (<samp>FastAPI</samp>), anti-bot web scraping (<samp>Playwright</samp>), end-to-end workflow automations (<samp>n8n</samp>), and cloud containerization (<samp>Docker</samp>, <samp>GCP</samp>, <samp>AWS S3</samp>).
 
 <br />
 
