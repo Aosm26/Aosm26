@@ -3,8 +3,8 @@
 </h1>
 
 <blockquote>
-  <b>Computer Engineering Student @ Gazi University</b><br />
-  Specializing in Artificial Intelligence, Vision-Language Models (VLM/LLM), Edge Computing &amp; Scalable Web Architecture.
+  <b>Computer Engineer | B.S. Gazi University</b><br />
+  Specializing in Artificial Intelligence, Computer Vision, Edge AI (NVIDIA Jetson / Raspberry Pi), Vision-Language Models (VLM/LLM) &amp; Scalable Backend Systems.
 </blockquote>
 
 <br />
@@ -13,7 +13,7 @@
   <img src="assets/hd-about.svg" alt="about" width="800" />
 </picture>
 
-Hi there, I'm **Ali Osman Seyis** — a 4th-year Computer Engineering student passionate about crafting high-performance, intelligent software systems. My work spans deep learning research (VLM &amp; LLM quantization), real-time computer vision on embedded hardware (NVIDIA Jetson / Raspberry Pi), and full-stack web platforms.
+Hi there, I'm **Ali Osman Seyis** — a solution-oriented **Computer Engineer** passionate about building high-performance intelligent software and embedded systems. With a strong track record across international competitions (TEKNOFEST, Singapore SAUVC, NASA Space Apps), research in Vision-Language Models (VLM/LLM quantization &amp; Medical VQA), and production-grade software engineering, I specialize in taking advanced AI models and deploying them into real-time edge devices and resilient cloud backends.
 
 <br />
 
@@ -21,10 +21,10 @@ Hi there, I'm **Ali Osman Seyis** — a 4th-year Computer Engineering student pa
   <img src="assets/hd-focus.svg" alt="focus &amp; interests" width="800" />
 </picture>
 
-- **Vision-Language &amp; Generative AI:** Quantized multimodal pipelines (LLaVA), prompt engineering, retrieval-augmented systems.
-- **Edge Computing &amp; Embedded Systems:** Real-time deep learning pipelines and hardware acceleration on <samp>NVIDIA Jetson Xavier / Nano</samp> and <samp>Raspberry Pi</samp>.
-- **Computer Vision:** Real-time object detection, tracking, feature extraction, and edge inference using <samp>OpenCV</samp> and <samp>PyTorch</samp>.
-- **Web &amp; Distributed Systems:** Modern web architectures with responsive interfaces and robust backend APIs (<samp>Python / Flask</samp>, <samp>C# / .NET</samp>, <samp>Node.js / React</samp>).
+- **Computer Vision &amp; Edge AI:** Real-time object detection &amp; multi-object tracking (<samp>YOLO</samp>, <samp>DeepSORT</samp>, <samp>OpenCV</samp>), hardware acceleration and low-latency inference on <samp>NVIDIA Jetson Xavier / Nano</samp> and <samp>Raspberry Pi 5 AI</samp> using <samp>TensorRT</samp> &amp; <samp>CUDA</samp>.
+- **Vision-Language &amp; Generative AI:** Quantized multimodal pipelines (<samp>LLaVA</samp>), RAG architectures (<samp>LlamaIndex</samp>, <samp>ChromaDB</samp>), prompt engineering, and Medical Visual Question Answering (VQA).
+- **Autonomous Systems &amp; Robotics:** Autonomous Underwater Vehicles (AUV), autonomous ground vehicles (TÜBİTAK 2209-A), mission algorithms, depth estimation (<samp>SCDepth V3</samp>), and <samp>ROS</samp>-based architectures.
+- **Backend, Scraping &amp; Automation:** High-concurrency APIs (<samp>FastAPI</samp>, <samp>Flask</samp>, <samp>.NET</samp>), anti-bot web scraping (<samp>Playwright</samp>), end-to-end workflow automations (<samp>n8n</samp>), and cloud containerization (<samp>Docker</samp>, <samp>GCP</samp>, <samp>AWS S3</samp>).
 
 <br />
 
@@ -32,11 +32,11 @@ Hi there, I'm **Ali Osman Seyis** — a 4th-year Computer Engineering student pa
   <img src="assets/hd-projects.svg" alt="selected projects" width="800" />
 </picture>
 
-- **LLaVA 4-bit Quantized Multimodal Pipeline** — Efficient fine-tuning and inference workflows for large vision-language models on memory-constrained environments.
-- **Real-Time Edge Vision Pipeline** — Optimized low-latency object detection and tracking deployed directly onto NVIDIA Jetson embedded platforms.
-- **Smart Object Recognition Systems** — Deep learning-based multi-class classification and detection leveraging OpenCV and PyTorch.
-- **Interactive Farming Simulator** — Mobile game built with <samp>Flutter</samp> and <samp>Flame Engine</samp> focusing on state management and game loop optimization.
-- **Full-Stack Web Platforms** — Dynamic web applications featuring responsive UI, RESTful API architecture, and database integrations.
+- **Autonomous Underwater Vehicle (AUV) Vision &amp; Navigation** — Mission algorithms, custom underwater YOLO detection models, and real-time control system integration on NVIDIA Jetson Xavier (*TEKNOFEST 11th &amp; 12th place out of 1,500+ teams; Singapore SAUVC World Top 35 Finalist*).
+- **Real-Time Football Vision &amp; WebRTC Live Streaming** — Object detection and tracking pipeline for football match analysis optimized for <samp>NVIDIA Jetson Xavier</samp>, featuring ultra-low latency live video streaming via <samp>WebRTC</samp> and an interactive <samp>Flask</samp> web dashboard.
+- **Medical VQA &amp; Vision-Language Model Pipeline** — Graduation thesis focused on Visual Question Answering for radiology images using multimodal vision-language architectures and efficient quantization.
+- **TÜBİTAK 2209-A Autonomous Ground Vehicle** — Real-time obstacle avoidance and decision-making system using SCDepth V3 depth estimation and image processing on Raspberry Pi 5 AI Hat.
+- **Cybersecurity RAG Smart Assistant** — Retrieval-Augmented Generation chatbot built with LlamaIndex, ChromaDB, and Python based on national information security standards (*TEKNOFEST NLP Competition*).
 
 <br />
 
@@ -46,22 +46,22 @@ Hi there, I'm **Ali Osman Seyis** — a 4th-year Computer Engineering student pa
 
 <p>
   <strong>Languages:</strong><br />
-  <samp>Python</samp> · <samp>C#</samp> · <samp>C++</samp> · <samp>JavaScript</samp> · <samp>TypeScript</samp> · <samp>Dart</samp> · <samp>SQL</samp> · <samp>Shell</samp>
+  <samp>Python</samp> · <samp>C#</samp> · <samp>C++</samp> · <samp>Java</samp> · <samp>JavaScript</samp> · <samp>TypeScript</samp> · <samp>Dart</samp> · <samp>SQL</samp> · <samp>Shell</samp>
 </p>
 
 <p>
-  <strong>AI &amp; Computer Vision:</strong><br />
-  <samp>PyTorch</samp> · <samp>OpenCV</samp> · <samp>Hugging Face</samp> · <samp>LLaVA / Transformers</samp> · <samp>NumPy</samp> · <samp>scikit-learn</samp>
+  <strong>AI, Computer Vision &amp; NLP:</strong><br />
+  <samp>PyTorch</samp> · <samp>OpenCV</samp> · <samp>YOLO</samp> · <samp>DeepSORT</samp> · <samp>LLM / VLM (LLaVA)</samp> · <samp>LlamaIndex</samp> · <samp>ChromaDB</samp> · <samp>Hugging Face</samp> · <samp>scikit-learn</samp>
 </p>
 
 <p>
-  <strong>Frameworks &amp; Tools:</strong><br />
-  <samp>.NET</samp> · <samp>Flask</samp> · <samp>Node.js</samp> · <samp>React</samp> · <samp>Flutter</samp> · <samp>Docker</samp> · <samp>Git</samp> · <samp>Linux</samp>
+  <strong>Edge Computing &amp; Autonomous Systems:</strong><br />
+  <samp>NVIDIA Jetson (Nano / Xavier)</samp> · <samp>Raspberry Pi 5 AI</samp> · <samp>ROS</samp> · <samp>TensorRT</samp> · <samp>CUDA</samp>
 </p>
 
 <p>
-  <strong>Hardware &amp; Edge:</strong><br />
-  <samp>NVIDIA Jetson Xavier / Nano</samp> · <samp>Raspberry Pi</samp> · <samp>CUDA</samp> · <samp>TensorRT</samp>
+  <strong>Backend, Cloud &amp; Networking:</strong><br />
+  <samp>FastAPI</samp> · <samp>Flask</samp> · <samp>.NET</samp> · <samp>React</samp> · <samp>WebRTC</samp> · <samp>Flutter</samp> · <samp>PostgreSQL</samp> · <samp>Redis</samp> · <samp>MongoDB</samp> · <samp>Docker</samp> · <samp>GCP</samp> · <samp>AWS S3</samp> · <samp>n8n</samp> · <samp>Playwright</samp>
 </p>
 
 <br />
@@ -106,9 +106,11 @@ Hi there, I'm **Ali Osman Seyis** — a 4th-year Computer Engineering student pa
   Let's connect and build intelligent systems together:
 </p>
 
-- ✉️ Email: <samp><a href="mailto:connect.aosm@gmail.com">connect.aosm@gmail.com</a></samp>
+- 🌐 Website: <samp><a href="https://aosmtech.com">aosmtech.com</a></samp>
+- 💼 LinkedIn: <samp><a href="https://www.linkedin.com/in/aliosman-seyis/">linkedin.com/in/aliosman-seyis</a></samp>
 - 🐙 GitHub: <samp><a href="https://github.com/Aosm26">github.com/Aosm26</a></samp>
-- 🤝 Open for: <samp>AI/ML Collaborations</samp> · <samp>Edge AI Engineering</samp> · <samp>Open Source Projects</samp>
+- ✉️ Email: <samp><a href="mailto:connect.aosm@gmail.com">connect.aosm@gmail.com</a></samp>
+- 🤝 Open for: <samp>AI &amp; Computer Vision Engineering</samp> · <samp>Edge AI &amp; Autonomous Systems</samp> · <samp>Scalable Backend Architectures</samp>
 
 <br />
 
