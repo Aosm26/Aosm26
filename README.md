@@ -33,10 +33,10 @@ Hi there, I'm **Ali Osman Seyis** — a solution-oriented **Computer Engineer** 
 </picture>
 
 - **Autonomous Underwater Vehicle (AUV) Vision &amp; Navigation** — Mission algorithms, custom underwater YOLO detection models, and real-time control system integration on NVIDIA Jetson Xavier (*TEKNOFEST 11th &amp; 12th place out of 1,500+ teams; Singapore SAUVC World Top 35 Finalist*).
-- **Real-Time Football Vision &amp; WebRTC Live Streaming** — Object detection and tracking pipeline for football match analysis optimized for <samp>NVIDIA Jetson Xavier</samp>, featuring ultra-low latency live video streaming via <samp>WebRTC</samp> and an interactive <samp>Flask</samp> web dashboard.
 - **Medical VQA &amp; Vision-Language Model Pipeline** — Graduation thesis focused on Visual Question Answering for radiology images using multimodal vision-language architectures and efficient quantization.
 - **TÜBİTAK 2209-A Autonomous Ground Vehicle** — Real-time obstacle avoidance and decision-making system using SCDepth V3 depth estimation and image processing on Raspberry Pi 5 AI Hat.
 - **Cybersecurity RAG Smart Assistant** — Retrieval-Augmented Generation chatbot built with LlamaIndex, ChromaDB, and Python based on national information security standards (*TEKNOFEST NLP Competition*).
+- **Real-Time Football Vision &amp; WebRTC Live Streaming** — Object detection and tracking pipeline for football match analysis optimized for <samp>NVIDIA Jetson Xavier</samp>, featuring ultra-low latency live video streaming via <samp>WebRTC</samp> and an interactive <samp>Flask</samp> web dashboard.
 
 <br />
 
