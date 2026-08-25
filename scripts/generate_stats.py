@@ -252,16 +252,16 @@ def aggregate_languages(repo_nodes, rest_repos=None):
     
     if repo_nodes:
         for repo in repo_nodes:
-            for edge in repo.get("languages", {}).get("edges", []):
+            repo_langs = repo.get("languages", {}).get("edges", [])
+            for edge in repo_langs:
                 name = edge["node"]["name"]
                 color = edge["node"]["color"] or LANGUAGE_COLORS.get(name, "#8b949e")
-                size = edge["size"]
+                size = edge.get("size", 0)
                 if name not in lang_totals:
                     lang_totals[name] = {"bytes": 0, "color": color, "repos": 0}
                 lang_totals[name]["bytes"] += size
                 lang_totals[name]["repos"] += 1
     elif rest_repos:
-        # Approximate from REST languages
         for r in rest_repos:
             lang = r.get("language")
             if lang:
@@ -272,23 +272,28 @@ def aggregate_languages(repo_nodes, rest_repos=None):
                 lang_totals[lang]["bytes"] += size
                 lang_totals[lang]["repos"] += 1
 
-    # If still empty, supply representative tech stack
+    # Fallback if no data is available
     if not lang_totals:
         lang_totals = {
             "Python": {"bytes": 450000, "color": "#3572A5", "repos": 6},
+            "Java": {"bytes": 180000, "color": "#b07219", "repos": 4},
             "C#": {"bytes": 180000, "color": "#178600", "repos": 3},
             "JavaScript": {"bytes": 120000, "color": "#f1e05a", "repos": 4},
             "Dart": {"bytes": 85000, "color": "#00B4AB", "repos": 2},
             "C++": {"bytes": 60000, "color": "#f34b7d", "repos": 2},
-            "Jupyter Notebook": {"bytes": 55000, "color": "#DA5B0B", "repos": 3},
         }
 
-    total_bytes = sum(item["bytes"] for item in lang_totals.values()) or 1
-    sorted_langs = sorted(lang_totals.items(), key=lambda x: x[1]["bytes"], reverse=True)
+    # Rank by number of repositories using each language (repo count instead of raw byte volume)
+    total_repo_counts = sum(item["repos"] for item in lang_totals.values()) or 1
+    sorted_langs = sorted(
+        lang_totals.items(),
+        key=lambda x: (x[1]["repos"], x[1]["bytes"]),
+        reverse=True
+    )
     
     result = []
     for name, data in sorted_langs[:6]:
-        pct = (data["bytes"] / total_bytes) * 100
+        pct = (data["repos"] / total_repo_counts) * 100
         result.append({
             "name": name,
             "color": data["color"],
