@@ -284,16 +284,19 @@ def aggregate_languages(repo_nodes, rest_repos=None):
         }
 
     # Rank by number of repositories using each language (repo count instead of raw byte volume)
-    total_repo_counts = sum(item["repos"] for item in lang_totals.values()) or 1
     sorted_langs = sorted(
         lang_totals.items(),
         key=lambda x: (x[1]["repos"], x[1]["bytes"]),
         reverse=True
     )
     
+    top_langs = sorted_langs[:6]
+    # Normalize percentages among the displayed top 6 languages so the bar and percentages sum to 100%
+    top_total_repos = sum(data["repos"] for _, data in top_langs) or 1
+    
     result = []
-    for name, data in sorted_langs[:6]:
-        pct = (data["repos"] / total_repo_counts) * 100
+    for name, data in top_langs:
+        pct = (data["repos"] / top_total_repos) * 100
         result.append({
             "name": name,
             "color": data["color"],
