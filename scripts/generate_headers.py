@@ -5,6 +5,7 @@ Generates minimalist SVG section headers with lowercase monospace typography
 and hairline rules extending to the edge.
 """
 
+import html
 import os
 from pathlib import Path
 
@@ -54,7 +55,8 @@ def main():
 
     for key, label in HEADERS:
         line_start = estimate_width(label)
-        svg_content = SVG_TEMPLATE.format(text=label, line_start=line_start)
+        escaped_label = html.escape(label)
+        svg_content = SVG_TEMPLATE.format(text=escaped_label, line_start=line_start)
         target_file = out_dir / f"hd-{key}.svg"
         with open(target_file, "w", encoding="utf-8") as f:
             f.write(svg_content.strip() + "\n")

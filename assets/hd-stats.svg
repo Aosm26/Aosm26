@@ -17,6 +17,6 @@
       stroke-dasharray: 4 2;
     }
   </style>
-  <text x="0" y="17" class="label"><tspan class="prefix"># </tspan>activity & metrics</text>
+  <text x="0" y="17" class="label"><tspan class="prefix"># </tspan>activity &amp; metrics</text>
   <line x1="188" y1="13" x2="800" y2="13" class="line" />
 </svg>

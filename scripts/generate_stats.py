@@ -9,6 +9,7 @@ Generates:
   - assets/year.svg
 """
 
+import html
 import json
 import os
 import sys
@@ -413,9 +414,10 @@ def draw_langs_svg(langs) -> str:
         row_idx = i // 3
         cx = col_offsets[col_idx]
         cy = 82 + row_idx * 22
+        escaped_name = html.escape(str(lang['name']))
         items_svg.append(f"""
         <circle cx="{cx}" cy="{cy - 4}" r="4" fill="{lang['color']}" />
-        <text x="{cx + 10}" y="{cy}" class="lang-text">{lang['name']}</text>
+        <text x="{cx + 10}" y="{cy}" class="lang-text">{escaped_name}</text>
         <text x="{cx + 210}" y="{cy}" text-anchor="end" class="lang-pct">{lang['pct']:.1f}%</text>
         """)
 

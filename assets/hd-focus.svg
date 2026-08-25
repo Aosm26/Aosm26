@@ -17,6 +17,6 @@
       stroke-dasharray: 4 2;
     }
   </style>
-  <text x="0" y="17" class="label"><tspan class="prefix"># </tspan>focus & interests</text>
+  <text x="0" y="17" class="label"><tspan class="prefix"># </tspan>focus &amp; interests</text>
   <line x1="179" y1="13" x2="800" y2="13" class="line" />
 </svg>
