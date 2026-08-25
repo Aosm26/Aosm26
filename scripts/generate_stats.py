@@ -291,7 +291,6 @@ def aggregate_languages(repo_nodes, rest_repos=None):
     )
     
     top_langs = sorted_langs[:6]
-    # Normalize percentages among the displayed top 6 languages so the bar and percentages sum to 100%
     top_total_repos = sum(data["repos"] for _, data in top_langs) or 1
     
     result = []
