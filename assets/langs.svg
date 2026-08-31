@@ -14,7 +14,7 @@
     <clipPath id="bar-clip">
       <rect x="24" y="46" width="752" height="10" rx="3" />
     </clipPath>
-    <rect x="24.0" y="46" width="288.1" height="10" fill="#3572A5" /> <rect x="312.1" y="46" width="133.5" height="10" fill="#e34c26" /> <rect x="445.7" y="46" width="105.4" height="10" fill="#663399" /> <rect x="551.1" y="46" width="91.4" height="10" fill="#f1e05a" /> <rect x="642.5" y="46" width="70.3" height="10" fill="#555555" /> <rect x="712.7" y="46" width="63.3" height="10" fill="#f34b7d" />
+    <rect x="24.0" y="46" width="292.4" height="10" fill="#3572A5" /> <rect x="316.4" y="46" width="132.3" height="10" fill="#e34c26" /> <rect x="448.7" y="46" width="104.4" height="10" fill="#663399" /> <rect x="553.2" y="46" width="90.5" height="10" fill="#f1e05a" /> <rect x="643.7" y="46" width="69.6" height="10" fill="#555555" /> <rect x="713.3" y="46" width="62.7" height="10" fill="#f34b7d" />
   </g>
 
   <!-- Legend -->
@@ -22,19 +22,19 @@
     
         <circle cx="24" cy="78" r="4" fill="#3572A5" />
         <text x="34" y="82" class="lang-text">Python</text>
-        <text x="234" y="82" text-anchor="end" class="lang-pct">38.3%</text>
+        <text x="234" y="82" text-anchor="end" class="lang-pct">38.9%</text>
          
         <circle cx="280" cy="78" r="4" fill="#e34c26" />
         <text x="290" y="82" class="lang-text">HTML</text>
-        <text x="490" y="82" text-anchor="end" class="lang-pct">17.8%</text>
+        <text x="490" y="82" text-anchor="end" class="lang-pct">17.6%</text>
          
         <circle cx="540" cy="78" r="4" fill="#663399" />
         <text x="550" y="82" class="lang-text">CSS</text>
-        <text x="750" y="82" text-anchor="end" class="lang-pct">14.0%</text>
+        <text x="750" y="82" text-anchor="end" class="lang-pct">13.9%</text>
          
         <circle cx="24" cy="100" r="4" fill="#f1e05a" />
         <text x="34" y="104" class="lang-text">JavaScript</text>
-        <text x="234" y="104" text-anchor="end" class="lang-pct">12.1%</text>
+        <text x="234" y="104" text-anchor="end" class="lang-pct">12.0%</text>
          
         <circle cx="280" cy="100" r="4" fill="#555555" />
         <text x="290" y="104" class="lang-text">C</text>
@@ -42,7 +42,7 @@
          
         <circle cx="540" cy="100" r="4" fill="#f34b7d" />
         <text x="550" y="104" class="lang-text">C++</text>
-        <text x="750" y="104" text-anchor="end" class="lang-pct">8.4%</text>
+        <text x="750" y="104" text-anchor="end" class="lang-pct">8.3%</text>
         
   </g>
 </svg>
